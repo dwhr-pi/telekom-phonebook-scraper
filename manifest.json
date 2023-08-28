@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Telekom tudakozó export",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/jquery-3.7.0.min.js",
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://www.telekom.hu/lakossagi/tudakozo*"
+            ]
+        }
+    ]
+}
